@@ -1,0 +1,46 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('AGROCAMPO');
+
+db.products.insertOne([
+{name:'FUNBACTER X LITRO',
+price: '401'},
+
+{name:'Semilla de Maíz Híbrido Somma',
+price:'304'},
+
+{name:'Semilla de Frijol cargamanto rojo x 1 kg',
+price:'475'},
+
+{name:'CompostCampo',
+price:'399'},
+
+{name:'FertiEspecial',
+price:'405'},
+
+{name:'HidroKofi',
+price:'285'},
+
+{name:'Furtivo 250 sc',
+price:'360'},
+
+{name:'Alguacil 250 sc',
+price:'335'},
+
+{name:'Fertinvesa K SC x',
+price:'799'},
+
+{name:'Motosierra Montana 1620',
+price:'501'},
+
+{name:'Motoguadaña a gasolina',
+price:'377'},
+
+
+])
+
+db.products.find({})
